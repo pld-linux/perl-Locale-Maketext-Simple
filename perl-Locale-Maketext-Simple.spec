@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Locale
-%define	pnam	Maketext-Simple
+%define		pdir	Locale
+%define		pnam	Maketext-Simple
 Summary:	Locale::Maketext::Simple - Simple interface to Locale::Maketext::Lexicon
 Summary(pl):	Locale::Maketext::Simple - prosty interfejs do Locale::Maketext::Lexicon
 Name:		perl-Locale-Maketext-Simple
