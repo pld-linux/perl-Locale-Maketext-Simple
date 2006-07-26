@@ -15,7 +15,7 @@ Epoch:		1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	9a65312da2ae8d59f898151f9c044383
+# Source0-md5:	d6dd0e79802f30d0eef723ec23021f60
 URL:		http://search.cpan.org/dist/Locale-Maketext-Simple/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
