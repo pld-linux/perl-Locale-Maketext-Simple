@@ -8,7 +8,7 @@
 Summary:	Locale::Maketext::Simple - Simple interface to Locale::Maketext::Lexicon
 Summary(pl):	Locale::Maketext::Simple - prosty interfejs do Locale::Maketext::Lexicon
 Name:		perl-Locale-Maketext-Simple
-Version:	0.12
+Version:	0.16
 Release:	1
 Epoch:		1
 # same as perl
@@ -16,6 +16,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	9a65312da2ae8d59f898151f9c044383
+URL:		http://search.cpan.org/dist/Locale-Maketext-Simple/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
