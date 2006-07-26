@@ -55,5 +55,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Change*
+%dir %{perl_vendorlib}/%{pdir}/Maketext
 %{perl_vendorlib}/%{pdir}/Maketext/*.pm
 %{_mandir}/man?/*
