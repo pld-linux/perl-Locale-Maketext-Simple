@@ -6,7 +6,7 @@
 %define		pdir	Locale
 %define		pnam	Maketext-Simple
 Summary:	Locale::Maketext::Simple - Simple interface to Locale::Maketext::Lexicon
-Summary(pl.UTF-8):   Locale::Maketext::Simple - prosty interfejs do Locale::Maketext::Lexicon
+Summary(pl.UTF-8):	Locale::Maketext::Simple - prosty interfejs do Locale::Maketext::Lexicon
 Name:		perl-Locale-Maketext-Simple
 Version:	0.16
 Release:	1
