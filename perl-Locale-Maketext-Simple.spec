@@ -9,7 +9,7 @@ Summary:	Locale::Maketext::Simple - Simple interface to Locale::Maketext::Lexico
 Summary(pl.UTF-8):	Locale::Maketext::Simple - prosty interfejs do Locale::Maketext::Lexicon
 Name:		perl-Locale-Maketext-Simple
 Version:	0.18
-Release:	1
+Release:	2
 Epoch:		1
 # same as perl
 License:	GPL v1+ or Artistic
@@ -25,6 +25,7 @@ BuildRequires:	perl-Test-Simple
 # to resolve dependency package name only:
 BuildRequires:	perl-Locale-Maketext
 %endif
+Requires:	perl-dirs >= 2.1-15
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -56,6 +57,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Change*
-%dir %{perl_vendorlib}/Locale/Maketext
 %{perl_vendorlib}/Locale/Maketext/*.pm
 %{_mandir}/man?/*
